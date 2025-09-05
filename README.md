@@ -78,6 +78,11 @@ A complete and interactive documentation for all API endpoints is available via 
 
 A summary of all routes is provided below.
 
+### Base URLs
+
+- Live: [https://content-management-platform-4fn0.onrender.com](https://content-management-platform-4fn0.onrender.com)
+- Local: [http://localhost:5007/api/v1](http://localhost:5007/api/v1)
+
 ### Auth (`/api/v1/auth`)
 *   `POST /register`: Register a new user (defaults to 'reader' role).
 *   `POST /login`: Login a user and receive a JWT.
